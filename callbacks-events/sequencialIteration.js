@@ -7,5 +7,5 @@ function iteratie(index) {
 
   const task = tasks[index]
 
-  task(() => iterate(index + 1))
+  task(() => iteratie(index + 1))
 }
